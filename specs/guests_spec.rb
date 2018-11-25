@@ -26,4 +26,14 @@ class TestGuests < Minitest::Test
     assert_equal("Trouble in Mind", result)
   end
 
+  # def test_pay_entry_fee()
+  #   fee = @rooms.guest_pays_fee("Aretha Franklin", 5)
+  #   assert_equal(5, fee)
+  # end
+
+  def guest_can_buy_drink
+    @guests.buy_drink(@drink1)
+    assert_equal()
+  end
+
 end

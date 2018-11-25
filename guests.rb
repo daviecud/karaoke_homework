@@ -25,5 +25,13 @@ def cheer_for_fav_song()
   return "Whoo I love this song!!"
 end
 
+# def pay_entry_fee()
+#   pay_fee = @wallet.shift()
+#   return pay_fee
+# end
+
+def buy_drink(drink)
+  @wallet -= drink.price()
+end
 
 end
